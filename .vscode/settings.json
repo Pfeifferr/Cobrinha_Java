@@ -1,0 +1,8 @@
+{
+  "java.jdt.ls.java.home": "C:\\Users\\pfeif\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-21.0.7.6-hotspot",
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "java": "cd \"C:\\Users\\pfeif\\.vscode\\Cobrinha_Java\" ; if ($?) { javac game_cobrinha/*.java } ; if ($?) { java game_cobrinha.GameFrame }"
+  }
+}
