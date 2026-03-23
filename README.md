@@ -43,6 +43,7 @@ git clone https://github.com/Pfeifferr/Cobrinha_Java.git
 cd Cobrinha_Java
 javac *.java
 java GameFrame
+```
 
 ## 📝 Estrutura do Código
 O projeto está organizado da seguinte forma:
@@ -56,4 +57,4 @@ O projeto está organizado da seguinte forma:
         * **Renderização:** Desenho da cobra e da comida utilizando `Graphics`.
 
 ## 👨‍💻 Autor
-Desenvolvido por **Pfeifferr**
+Desenvolvido por **Christofer Alberto Pfeiffer**
