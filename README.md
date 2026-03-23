@@ -32,15 +32,28 @@ O objetivo é simples: controlar a cobra para coletar a comida que aparece na te
 
 ## 🚀 Como Executar o Projeto
 
-### 1. Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter o **JDK (Java Development Kit)** instalado em sua máquina.
 
-### 2. Clone o repositório
+### Instalação e Execução
 
 ```bash
 git clone https://github.com/Pfeifferr/Cobrinha_Java.git
-´´´
+cd Cobrinha_Java
+javac *.java
+java GameFrame
 
-### 3. Navegue até a pasta do projeto e compile os arquivos .java:
+## 📝 Estrutura do Código
+O projeto está organizado da seguinte forma:
 
+* **GameFrame.java**
+    * Responsável por criar a janela principal (`JFrame`) que contém o jogo.
+* **GamePanel.java**
+    * Contém a lógica principal do jogo:
+        * **Movimentação:** Atualização das coordenadas da cobra.
+        * **Detecção de Colisão:** Verifica colisões com bordas e com o próprio corpo.
+        * **Renderização:** Desenho da cobra e da comida utilizando `Graphics`.
+
+## 👨‍💻 Autor
+Desenvolvido por **Pfeifferr**
